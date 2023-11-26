@@ -1,0 +1,14 @@
+<JSD006_Hatsuharu_1945_wire.mfm>
+	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/ship/JSD006_Hatsuharu_1945_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/ship/JSD006_Hatsuharu_1945_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/ship/JSD006_Hatsuharu_1945_n.dds	</Texture>
+	</property>
+</JSD006_Hatsuharu_1945_wire.mfm>
