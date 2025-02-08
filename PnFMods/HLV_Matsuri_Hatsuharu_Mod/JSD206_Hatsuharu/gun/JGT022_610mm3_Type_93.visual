@@ -1,65 +1,160 @@
 <JGT022_610mm3_Type_93.visual>
-	<boundingBox>
-		<min>	-0.155521 -0.000238 -0.250603	</min>
-		<max>	0.154844 0.151827 0.307257	</max>
-	</boundingBox>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.000000 0.000000 0.000000	</row0>
-			<row1>	0.000000 1.000000 0.000000	</row1>
-			<row2>	0.000000 0.000000 1.000000	</row2>
-			<row3>	0.000000 0.000000 0.000000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Type93	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
-				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
+				<identifier>	Type93	</identifier>
 				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.000000 0.038014 -0.249919 1.000000	</row3>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire2	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	0.053192 0.025661 -0.249919 1.000000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	HP_gunFire3	</identifier>
-				<transform>
-					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
-					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
-					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
-					<row3>	-0.055007 0.025661 -0.249919 1.000000	</row3>
-				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0380 -0.2498 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire2	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0532 0.0257 -0.2498 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	HP_gunFire3	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	-0.0550 0.0257 -0.2498 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_CM752_GunBarrel_Garland_NY2022	</identifier>
+					<transform>
+						<row0>	-0.5153 0.3422 0.0000 0.0000	</row0>
+						<row1>	0.3422 0.5153 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 -0.6186 0.0000	</row2>
+						<row3>	-0.0731 0.0414 0.2053 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_CM752_GunBarrel_Garland_NY2022_INDEX_1	</identifier>
+					<transform>
+						<row0>	0.5238 0.3290 0.0000 0.0000	</row0>
+						<row1>	-0.3290 0.5238 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 0.6186 0.0000	</row2>
+						<row3>	0.0723 0.0409 0.2053 1.0000	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	MP_JM514_Lights_JGT022	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Type93	</node>
-		<geometry>
-			<vertices>	Type93Shape.vertices	</vertices>
-			<primitive>	Type93Shape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/gun/JGT022_610mm3_Type_93.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.1554 -0.0410 -0.3164	</min>
+		<max>	0.1547 0.1517 0.3071	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	Type93Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Type93	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/gun/JGT022_610mm3_Type_93.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Type93_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Type93	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/gun/JGT022_610mm3_Type_93.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Type93_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Type93	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/gun/JGT022_610mm3_Type_93.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Type93_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Type93	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Matsuri_Hatsuharu_Mod/JSD206_Hatsuharu/gun/JGT022_610mm3_Type_93.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Type93Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Type93_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	35.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Type93_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	100.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Type93_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </JGT022_610mm3_Type_93.visual>
